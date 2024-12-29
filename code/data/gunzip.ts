@@ -1,4 +1,7 @@
 import zlib, { InputType, ZlibOptions } from 'zlib'
+import isGzip from 'is-gzip'
+
+export { isGzip }
 
 export function gzip(input: InputType, options?: ZlibOptions) {
   return new Promise(function (resolve, reject) {

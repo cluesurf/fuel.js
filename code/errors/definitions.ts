@@ -1,6 +1,6 @@
 import Kink from '@termsurf/kink'
 
-const host = '@termsurf/deck'
+const host = '@termsurf/fuel'
 
 type Base = {}
 
